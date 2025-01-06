@@ -1,0 +1,72 @@
+/* General Styles */
+body {
+  font-family: Bookman, URW Bookman L, serif;
+  margin: 0;
+  padding: 0;
+  transition: background-color 0.5s, color 0.5s; /* Smooth transition for theme change */
+}
+
+/* Light Theme (Default) */
+body.light-theme {
+  background-color: #f0f8ff;
+  color: #333333;
+}
+
+header.light-theme {
+  background-color: #ffcccb;
+}
+
+section.light-theme {
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+}
+
+footer.light-theme {
+  background-color: #333333;
+  color: white;
+}
+
+/* Dark Theme */
+body.dark-theme {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+header.dark-theme {
+  background-color: #333333;
+}
+
+section.dark-theme {
+  background-color: #1e1e1e;
+  border: 1px solid #444444;
+}
+
+footer.dark-theme {
+  background-color: #333333;
+  color: #ffffff;
+}
+
+/* Button Styling */
+button {
+  padding: 10px 15px;
+  margin-top: 10px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+button.light-theme {
+  background-color: #333333;
+  color: #ffffff;
+}
+
+button.dark-theme {
+  background-color: #ffffff;
+  color: #333333;
+}
+
+button:hover {
+  opacity: 0.8;
+}
