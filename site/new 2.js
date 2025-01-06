@@ -6,14 +6,14 @@ document.addEventListener("DOMContentLoaded", () => {
 
   let greeting;
   if (hours < 12) {
-    greeting = "Good Morning";
+    greeting = "Good Morning and Happy Birthday";
   } else if (hours < 18) {
-    greeting = "Good Afternoon";
+    greeting = "Good Afternoon and Happy Birthday";
   } else {
-    greeting = "Good Evening";
+    greeting = "Good Evening and Happy Birthday";
   }
 
-  welcomeMessage.textContent = `${greeting}, luv!`;
+  welcomeMessage.textContent = `${greeting}, luv!!!`;
 });
 
 // Theme Switcher

@@ -8,7 +8,7 @@ body {
 
 /* Light Theme (Default) */
 body.light-theme {
-  background-color: #f0f8ff;
+  background-color: #ffa8e6;
   color: #333333;
 }
 
@@ -18,7 +18,7 @@ header.light-theme {
 
 section.light-theme {
   background-color: #ffffff;
-  border: 1px solid #ccc;
+  border: 3px solid #ccc;
 }
 
 footer.light-theme {
@@ -33,12 +33,12 @@ body.dark-theme {
 }
 
 header.dark-theme {
-  background-color: #333333;
+  background-color: #753131;
 }
 
 section.dark-theme {
   background-color: #1e1e1e;
-  border: 1px solid #444444;
+  border: 3px solid #444444;
 }
 
 footer.dark-theme {
